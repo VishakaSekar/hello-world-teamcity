@@ -14,9 +14,11 @@ object Project : Project({
     parentId("_Root")
     name = "Hello World Teamcity"
 
+    vcsRoot(HelloWorldTeamcity_HttpsGithubComVishakaSekarKafkaMonitoringExtensionCiRefsHeads)
     vcsRoot(HelloWorldTeamcity_HttpsGithubComVishakaSekarHelloWorldTeamcityRefsHeadsMaster)
 
     buildType(HelloWorldTeamcity_BuildTest)
+    buildType(HelloWorldTeamcity_Build)
 
     features {
         versionedSettings {
